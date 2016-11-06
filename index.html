@@ -1,0 +1,22 @@
+---
+layout: default
+--- 
+
+{% for post in site.posts %}
+<div id="{{ post.id }}" class="unit whole align-left post">
+	<article itemscope itemtype="http://schema.org/BlogPosting">
+		<h2>{{ post.title }}<br><small class="chip">{{ post.date | date: "%b %-d, %Y" }}</small></h2>
+		
+		<div class="post-content">
+			{{ post.content }}
+		</div>
+
+		{% if post.author %}
+		<span class="chip" itemprop="author" itemscope itemtype="http://schema.org/Person">
+			<span itemprop="name">Artikel von {{ post.author }}</span>
+		</span>
+		{% endif %}
+
+	</article>
+</div>
+{% endfor %}
