@@ -5,7 +5,10 @@ layout: default
 {% for post in site.posts %}
 <div id="{{ post.id }}" class="unit whole align-left post">
 	<article itemscope itemtype="http://schema.org/BlogPosting">
-		<h2>{{ post.title }} <i class="icon ion-ios-lightbulb-outline"></i><br><small class="chip">{{ post.date | date: "%b %-d, %Y" }}</small></h2>
+		<h2>{{ post.title }}<br>
+		<small class="chip">{{ post.date | date: "%b %-d, %Y" }}</small>
+		<a class="chip" href="https://twitter.com/intent/tweet?text={{ post.title | cgi_escape }}&url={{ post.id | prepend: "#" | prepend: site.baseurl | prepend: site.url | cgi_escape }}"><i class="icon ion-social-twitter"></i> TWEET</a>
+		</h2>
 		
 		<div class="post-content">
 			{{ post.content }}
@@ -13,7 +16,7 @@ layout: default
 
 		{% if post.author %}
 		<span class="chip" itemprop="author" itemscope itemtype="http://schema.org/Person">
-			<span itemprop="name">Artikel von {{ post.author }}</span>
+			<span itemprop="name">Article by {{ post.author }}</span>
 		</span>
 		{% endif %}
 

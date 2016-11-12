@@ -12,11 +12,10 @@ baseurl: ""
 url: "http://himsel.me" # replace by your site's url
 twitter_username: your-name
 github_username:  lukas-h # (your name)
-accent: "#f7f7e6" # accent color for blog column
+accent: "#eaffea" # accent color for blog column
 
 author: "Your Name"
-address: "Your Street, Your City"
-region: "Your Country"
+address: "Your Street, <br>Your City, Country"
 email: "your@email.com"
 
 # google analytics tracking code, please change the value
