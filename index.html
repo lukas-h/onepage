@@ -8,6 +8,7 @@ layout: default
 		<h2>{{ post.title }}<br>
 		<small class="chip">{{ post.date | date: "%b %-d, %Y" }}</small>
 		<a class="chip" href="https://twitter.com/intent/tweet?text={{ post.title | cgi_escape }}&url={{ post.id | prepend: "#" | prepend: site.baseurl | prepend: site.url | cgi_escape }}"><i class="icon ion-social-twitter"></i> TWEET</a>
+		<a class="chip" href="{{ site.url }}{{ site.baseurl }}#{{ post.id }}"><i class="icon ion-android-share-alt"></i> LINK</a>
 		</h2>
 		
 		<div class="post-content">
