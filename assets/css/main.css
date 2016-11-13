@@ -117,7 +117,8 @@ li{
 .post-content h5,
 .post-content h6{
     font-family: 'Playfair Display', serif;
-    margin: 20px 5px 0px;
+    padding-left: 8px;
+    border-left: 5px solid #db4646;
 }
 .chip{
     display: inline-block;
