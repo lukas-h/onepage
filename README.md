@@ -1,7 +1,7 @@
 # onepage
 uncomplicated single-page jekyll blog theme
 
-# [DEMO]([HERE](https://lukas-h.github.io/onepage/)
+## find a demo here [HERE](https://lukas-h.github.io/onepage/)
 
 ## use it in 4 easy steps
 
