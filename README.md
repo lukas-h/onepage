@@ -1,9 +1,9 @@
 # onepage
 uncomplicated single-page jekyll blog theme
 
-# [DEMO](http://himsel.me)
+# [DEMO]([HERE](https://lukas-h.github.io/onepage/)
 
-# use it! - 4 easy steps
+## use it in 4 easy steps
 
 #### 1. fork this repository and rename it
 
