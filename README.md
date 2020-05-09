@@ -15,7 +15,7 @@ uncomplicated single-page jekyll blog theme
 
 3.2. give your site's url with protocol (http or https) to the variable `url`  
 
-3.3. the part after your page domain, for example you have `http://himsel.me/onepage`, `baseurl: "/onepage"` is the right value
+3.3. the part after your page domain, for example you have `http://lukas-h.github.io/onepage`, `baseurl: "/onepage"` is the right value
 
 3.4. paste **github** and **twitter** username to the following variables. Important: **without** @ prefix  
 
