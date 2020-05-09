@@ -8,8 +8,8 @@ permalink: /:title
 
 title: "Your Name"
 description: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
-baseurl: ""
-url: "http://himsel.me" # replace by your site's url
+baseurl: "/onepage"
+url: "https://lukas-h.github.io" # replace by your site's url
 twitter_username: your-name
 github_username:  lukas-h # (your name)
 accent: "#f7f7e6" # accent color for blog column
